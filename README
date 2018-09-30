@@ -1,20 +1,6 @@
-This directory contains DateServer.java and DateClient.java. These programs can be run by
-first compiling both files and then entering
+Esse trabalho implemeta a cominação entre processos distintos. O servidor é capaz de realizar calculos matemáticos e o cliente
+manda requisições.
+execute o servidor em um terminal e em outro execute o cliente utilizando o seguinte modelo: "operador:operando1:operando2" 
+Exemplo 
 
-	java DateServer
-
-to start the server and
-
-	java DateClient
-
-to start the client. 
-
-It is possible to start the server and then connect to it by using telnet.  After
-starting the server, enter
-
-	telnet <hostname> 6013
-
-where <hostname> is the IP name or address the server is running on. If the server is running
-on the same computer as telnet is being issued from, enter
-
-	telnet localhost 6013
+java DateClient "+:5:8". os operandos 5 e 8 serão somados pelo servidor, que enviará a resposta de volta para o cliente.
